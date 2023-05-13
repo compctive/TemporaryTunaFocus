@@ -25,7 +25,7 @@
         // Add a click event listener to the display button
         displayButton.addEventListener('click', () => {
             // Prompt the user for a response owner ID or nickname
-            const responseOwner = prompt('보려는 아이디나 닉네임 입력');
+            const responseOwner = prompt('보려는 아이디나 인증코드 입력');
             if (!responseOwner) {
                 return;
             }
@@ -51,7 +51,7 @@
             if (foundResponse) {
                 showAllButton.style.display = 'inline-block';
             } else {
-                alert(`"${responseOwner}" ← 이런 아이디나 닉네임이 없습니다.`);
+                alert(`"${responseOwner}" ← 이런 아이디나 인증코드가 없습니다.`);
                 return;
             }
         });
