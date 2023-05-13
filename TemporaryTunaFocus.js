@@ -4,7 +4,6 @@
 // @version      0.1
 // @description  Display response_info with specific ID or code on tunaground BBS thread pages
 // @match        https://bbs.tunaground.net/*
-
 // ==/UserScript==
 
 (function() {
