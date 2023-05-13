@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         TemporaryTunaFocus
-// @author       Anonymous Tuna With ChatGPT
+// @author       Anonymous Tuna compctive With ChatGPT
 // @version      0.1
 // @description  Display response_info with specific ID or code on tunaground BBS thread pages
 // @match        https://bbs.tunaground.net/*
