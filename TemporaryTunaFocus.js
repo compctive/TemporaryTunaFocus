@@ -58,7 +58,7 @@
     if (foundResponse) {
       showAllButton.style.display = 'inline-block';
     } else {
-      alert(`"${responseOwner}" 이런 아이디나 인증코드가 없습니다.`);
+      alert(`"${responseOwner}" ← 이런 아이디나 인증코드가 없습니다.`);
       responseElements.forEach(responseElement => {
         responseElement.style.display = 'block';
       });
